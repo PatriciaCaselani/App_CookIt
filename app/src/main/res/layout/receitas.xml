@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="6dp"
+        android:text="Croissants"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView01"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/croissants" />
+
+        <TextView
+            android:id="@+id/descricao_croissants"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="55dp"
+            android:maxLines="4"
+            android:text="TEXTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/continuar_lendo01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="32dp"
+            android:text="Continuar lendo..."
+            android:textColor="#bb0000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#F6DCCC3E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view"/>
+
+        <TextView
+        android:id="@+id/textView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="6dp"
+        android:text="Croque Madame"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView02"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/croque_madame" />
+
+        <TextView
+            android:id="@+id/descricao_croque_madame"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:gravity="right|left"
+            android:maxLines="4"
+            android:text="TEXTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/continuar_lendo02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="32dp"
+            android:text="Continuar lendo..."
+            android:textColor="#bb0000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#F6DCCC3E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view"/>
+
+        <TextView
+        android:id="@+id/textView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="6dp"
+        android:text="Clafoutis"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView03"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/clafoutis" />
+
+        <TextView
+            android:id="@+id/descricao_clafoutis"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="55dp"
+            android:maxLines="4"
+            android:text="TEXTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+            android:textSize="16sp" />
+
+        <TextView
+        android:id="@+id/continuar_lendo03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar lendo..."
+        android:textColor="#bb0000"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#F6DCCC3E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view"/>
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="6dp"
+            android:text="Tarte Tatin"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView04"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/tarte_tatin" />
+
+        <TextView
+            android:id="@+id/descricao_tarte_tatin"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="55dp"
+            android:maxLines="4"
+            android:text="TEXTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/continuar_lendo04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continuar lendo..."
+            android:textColor="#bb0000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#F6DCCC3E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view"/>
+
+        <TextView
+            android:id="@+id/textView05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="6dp"
+            android:text="Ratatouille"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView05"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ratatouille" />
+
+        <TextView
+            android:id="@+id/descricao_ratatouille"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="55dp"
+            android:maxLines="4"
+            android:text="TEXTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/continuar_lendo05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continuar lendo..."
+            android:textColor="#bb0000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#F6DCCC3E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view"/>
+
+        <TextView
+            android:id="@+id/textView06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="6dp"
+            android:text="Macarons"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView06"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/macarons" />
+
+        <TextView
+            android:id="@+id/descricao_macarons"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="55dp"
+            android:maxLines="4"
+            android:text="TEXTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/continuar_lendo06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continuar lendo..."
+            android:textColor="#bb0000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#F6DCCC3E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view"/>
+
+        <TextView
+            android:id="@+id/textView07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="6dp"
+            android:text="Crème Brûlee"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView07"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/creme_brulee" />
+
+        <TextView
+            android:id="@+id/descricao_creme_brulee"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="55dp"
+            android:maxLines="4"
+            android:text="TEXTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/continuar_lendo07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continuar lendo..."
+            android:textColor="#bb0000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="#F6DCCC3E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view"/>
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
